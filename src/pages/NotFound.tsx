@@ -1,12 +1,11 @@
-import Header from "../components/Header";
+import DashboardLayout from "../components/DashboardLayout";
 
 function NotFound() {
   return (
-    <div>
-      <Header />
+    <DashboardLayout>
       <h2>Not found Page</h2>
       <p>This is the not found page</p>
-    </div>
+    </DashboardLayout>
   );
 }
 

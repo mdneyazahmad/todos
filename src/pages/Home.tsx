@@ -1,12 +1,11 @@
-import Header from "../components/Header";
+import DashboardLayout from "../components/DashboardLayout";
 
 function Home() {
   return (
-    <div>
-      <Header />
+    <DashboardLayout>
       <h2>Home Page</h2>
       <p>This is the home page</p>
-    </div>
+    </DashboardLayout>
   );
 }
 
